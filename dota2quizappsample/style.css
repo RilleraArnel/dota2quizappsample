@@ -2,3 +2,15 @@ button {
 	margin-right: 5px;
 	margin-bottom: 5px;
 }
+
+.btn-info {
+	margin-bottom: 5px;
+}
+
+.modal-footer {
+	text-align: center;
+}
+
+.btn-danger {
+	float: right;
+}
