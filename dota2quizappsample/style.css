@@ -22,3 +22,18 @@ button {
 .item {
 	background-color: black;
 }
+
+h2 {
+	font-family: courier;
+}
+
+p {
+	font-size: 90%;
+	font-family: courier;
+}
+
+h3 {
+	font-family: courier;
+
+}
+
