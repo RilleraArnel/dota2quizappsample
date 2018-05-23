@@ -1,6 +1,34 @@
-button {
-	margin-right: 5px;
-	margin-bottom: 5px;
+*{
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+
+.container {
+	min-width: 1200px;
+}
+
+.modal-dialog {
+  float:auto;
+  height: auto;
+  width: 850px;
+  margin-left: auto;
+}
+
+
+.modal-content {
+	min-height: auto;
+	min-width: 750px;
+}
+
+.modal-body, .carousel-caption{
+	height: 140px;
+	width: auto;
+}
+
+.item {
+	height:auto;
+	width: auto;
 }
 
 .btn-info {
@@ -17,6 +45,10 @@ button {
 
 .btn-warning {
 	float: right;
+}
+
+.btn-primary {
+	margin-bottom: 5px;
 }
 
 .item {
@@ -36,4 +68,3 @@ h3 {
 	font-family: courier;
 
 }
-
