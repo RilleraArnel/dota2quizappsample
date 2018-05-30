@@ -2,7 +2,9 @@
 	margin: 0px;
 	padding: 0px;
 	border: 0px;
+	font-size: 0px
 }
+
 
 .container {
 	min-width: auto;
@@ -54,11 +56,18 @@
 
 .btn-primary, .btn-info, .btn-default {
 	background-color: black;
-	float:left;
+	float:center;
 	border-color: black;
 	border-radius: 0;
 }
 
+.carousel-caption , .modal-body{
+	font-size: 14px;
+}
+
+.modal-body {
+	text-align: left;
+}
 
 .item {
 	background-color: black;
