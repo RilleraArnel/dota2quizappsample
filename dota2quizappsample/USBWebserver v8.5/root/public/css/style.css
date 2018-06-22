@@ -1,0 +1,26 @@
+body{
+	background-color:orange; 
+}
+h2{
+text-align: center;
+
+}
+label {
+	display: block;
+	margin: 5px 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-color: blue;
+	margin:0px auto;
+}
+
+td,
+th {
+	padding: 5px;
+	border-bottom: 1px solid #aaa;
+}
+#location, #lastname, #firstname, #email, #age, #location{
+	background-color:white; 
+}
