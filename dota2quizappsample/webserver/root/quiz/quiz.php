@@ -11,17 +11,17 @@ if(isset($_POST['answers'])){
     $Total = 0;
     foreach ($Questions as $QuestionNo => $Value){
 
-//        echo $Value['Question'].'<br />';
+        echo $Value['Question'].'<br />';
 
         if ($Answers[$QuestionNo] != $Value['CorrectAnswer']){
-//            echo '<span style="color: red;">'.$Value['Answers'][$Answers[$QuestionNo]].'</span>';
+            echo '<span style="color: red;">'.$Value['Answers'][$Answers[$QuestionNo]].'</span>';
             $Total++; 
         } else {
-//            echo '<span style="color: green;">'.$Value['Answers'][$Answers[$QuestionNo]].'</span>';
+            echo '<span style="color: green;">'.$Value['Answers'][$Answers[$QuestionNo]].'</span>';
             $Score++;
             $Total++; 
         }
-//        echo '<br/><hr>';
+        echo '<br/><hr>';
     }
     echo '<h4>You got <span style="color:green";>'.$Score. '</span> out of '.$Total.'.';
 } 

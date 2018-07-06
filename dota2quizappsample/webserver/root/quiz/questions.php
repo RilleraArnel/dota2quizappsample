@@ -6,7 +6,7 @@ $Questions = array(
             'A' => 'True',
             'B' => 'False',
         ),
-        'CorrectAnswer' => 'A'
+        'CorrectAnswer' => 'B'
     ),
     2 => array(
         'Question' => 'Crystal Maiden\'s main Attribute is:',
