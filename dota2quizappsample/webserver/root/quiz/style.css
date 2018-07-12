@@ -5,6 +5,13 @@
 	font-size: 0px
 }
 
+body {
+	background-image:url(img/dotabg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
 
 .container {
 	min-width: auto;
@@ -83,6 +90,6 @@ p {
 }
 
 h3 {
-	font-family: courier;
-
+	font-family: "georgia";
+	color: white;
 }
